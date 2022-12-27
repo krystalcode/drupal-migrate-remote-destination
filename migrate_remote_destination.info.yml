@@ -2,6 +2,6 @@ type: module
 name: Drupal 8 to remote migration
 description: Migration destination plugin for remote APIs
 package: Migration
-core: 8.x
+core_version_requirement: ^8.9 || ^9
 dependencies:
   - migrate
